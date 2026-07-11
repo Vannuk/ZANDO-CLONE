@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductDetail</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <!-- section header -->
+    <section class="header-container">
+        <div class="header">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="">WOMEN</a>
+                    </li>
+                    <li>
+                        <a href="">MEN</a>
+                    </li>
+                    <li>
+                        <a href="">BOYS</a>
+                    </li>
+                    <li>
+                        <a href="">GIRLS</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo-company">
+                <img src="../image/ZANDO-NEW-LOGO-2025.png" alt="ZANDO-NEW-LOGO-2025" srcset="">
+            </div>
+            <div class="sign-up">
+                <ul>
+                    <li>
+                        <a href="">REGISTER</a>
+                    </li>
+                    <li>
+                        <a href="">LOGIN</a>
+                    </li>
+                    <li>
+                        <a href=""><i class="ti ti-shopping-bag"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-regular fa-heart"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-regular fa-bell"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><div class="group">
+                            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+                                <g>
+                                    <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                                </g>
+                            </svg>
+                            <input placeholder="Search" type="search" class="input">
+                        </div></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <!-- product detail -->
+    <section class="product-detail">
+        <div class="image-preview">
+            <div class="sm-img-preview">
+                <div class="col-img" id="col-img1">
+                    <img onclick="changeImg(this)" src="../image/TAKK7465.jpg" alt="">
+                </div>
+                <div class="col-img" id="col-img2">
+                    <img onclick="changeImg(this)" src="../image/TAKK7462.jpg" alt="">
+                </div>
+                <div class="col-img" id="col-img3">
+                    <img onclick="changeImg(this)" src="../image/TAKK7461.jpg" alt="">
+                </div>
+                <div class="col-img" id="col-img4">
+                    <img onclick="changeImg(this)" src="../image/TAKK7463.jpg" alt="">
+                </div>
+                <div class="col-img" id="col-img5">
+                    <img onclick="changeImg(this)" src="../image/TAKK7469.jpg" alt="">
+                </div>
+            </div>
+            <div class="lg-img-preview">
+                <img id="lg-img" src="../image/TAKK7465.jpg" alt="">
+            </div>
+        </div>
+        <div class="product-info">
+            <div class="prd-title">
+                <h3>US $15.26 <del>US $16.95</del> </h3>
+                <p>Mock Two-Peices Sweater</p>
+            </div>
+            <div class="prd-color">
+                <h4>1 Colors available</h4>
+                <div class="img-color">
+                    <img src="../image/TAKK7465.jpg" alt="">
+                    <p>Gray</p>
+                </div>
+            </div>
+            <div class="prd-size">
+                <h3>Size</h3>
+                <div class="size-option">
+                    XS
+                </div>
+                <div class="size-option">
+                    S
+                </div>
+                <div class="size-option">
+                    M
+                </div>
+                <div class="size-option">
+                    L
+                </div>
+                <div class="size-option">
+                    XL
+                </div>
+            </div>
+            <div class="prd-qty">
+                <h3>Quantity</h3>
+                <div class="qty">
+                    -
+                </div>
+                <div class="qty">
+                    1
+                </div>
+                <div class="qty">
+                    +
+                </div>
+            </div>
+            <div class="prd-btn">
+                <button class="btn-add">Add to bag</button>
+                <button class="btn-favourite"><i class="fa-regular fa-heart"></i></button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- section popular product -->
+    <section class="pop-prd">
+        <div class="title">
+            <h1>Q-Drift Urban Motion 🚀</h1>
+            <a href="">Shop Now</a>
+        </div>
+        <div class="pop-container">
+            <div class="box-prd" data-aos="fade-left" data-aos-delay="100">
+                <div class="discount">
+                    -30%
+                </div>
+                <div class="prd-img">
+                    <img src="../image/ZD__8244-cr-450x672.jpg" alt="">
+                    <div class="brand-desc">TEN11 / New in</div>
+                </div>
+                <div class="prd-desc">
+                    <p></p>US $8.15 <del>US $13.59</del> <i class="fa-regular fa-heart"></i></p>
+                    <p>Tube Top</p>
+                    <div class="border-prd-desc">
+
+                    </div>
+                    <div class="border-prd-desc">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="box-prd" data-aos="fade-left" data-aos-delay="200">
+                <div class="discount">
+                    -30%
+                </div>
+                <div class="prd-img">
+                    <img src="../image/TAKK9237-cr-450x672.jpg" alt="">
+                    <div class="brand-desc">TEN11 / New in</div>
+                </div>
+                <div class="prd-desc">
+                    <p>US $8.75 <del>US $14.59</del> <i class="fa-regular fa-heart"></i></p>
+                    <p>Drift-Half Zip T-Shirt</p>
+                </div>
+            </div>
+            <div class="box-prd" data-aos="fade-left" data-aos-delay="300">
+                <div class="discount">
+                    -30%
+                </div>
+                <div class="prd-img">
+                    <img src="../image/ZD__7198-cr-450x672.jpg" alt="">
+                    <div class="brand-desc">TEN11 / New in</div>
+                </div>
+                <div class="prd-desc">
+                    <p>US $8.15 <del>US $13.59</del> <i class="fa-regular fa-heart"></i></p>
+                    <p>Regular Fitted Long Sleeves T-Shirt</p>
+                </div>
+            </div>
+            <div class="box-prd" data-aos="fade-left" data-aos-delay="400">
+                <div class="discount">
+                    -30%
+                </div>
+                <div class="prd-img">
+                    <img src="../image/ZD__8281-cr-450x672.jpg" alt="">
+                    <div class="brand-desc">TEN11 / New in</div>
+                </div>
+                <div class="prd-desc">
+                    <p>US $8.37 <del>US $13.95</del> <i class="fa-regular fa-heart"></i></p>
+                    <p>Regular Long Sleeves T-Shirt</p>
+                    <div class="border-prd-desc">
+
+                    </div>
+                    <div class="border-prd-desc">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-1">
+            <div class="QR">
+                <p>SCAN QR</p>
+                <img src="../image/qr_code_app.png" alt="">
+            </div>
+            <div class="Loyalty">
+                <h4>LOYALTY</h4>
+                <p><i class="fa-regular fa-gem"></i> MemeberShips & Benefit</p>
+            </div>
+        </div>
+        <div class="footer-2">
+            <div class="AboutUs">
+                <h4>FOLLOW US</h4>
+                <p><i class="fa-brands fa-facebook"></i> Facebook</p>
+                <p><i class="fa-brands fa-instagram"></i> Instagram</p>
+                <p><i class="fa-brands fa-tiktok"></i> Tik Tok</p>
+                <p><i class="fa-brands fa-youtube"></i> Youtube</p>
+            </div>
+            <div class="AboutUs">
+                <h4>CUSTOMER SERVICES</h4>
+                <p><i class="fa-solid fa-circle-question"></i> Online exchange policy</p>
+                <p><i class="fa-solid fa-shield-halved"></i> Privacy Policy</p>
+                <p><i class="fa-regular fa-comment"></i> FAQs & guides</p>
+                <p><i class="fa-solid fa-location-dot"></i> Find a store</p>
+            </div>
+            <div class="AboutUs">
+                <h4>CONTACT US</h4>
+                <p><i class="fa-solid fa-inbox"></i> info@zandokh.com</p>
+                <p><i class="fa-solid fa-phone"></i> (+855) 085 330 330</p>
+                <p><i class="fa-brands fa-telegram"></i> Telegram</p>
+            </div>
+        </div>
+        <div class="footer-3">
+            <h4>WE ACCEPT</h4>
+            <img src="../image/We-accept-payment–for-web-footer-1.png" alt="">
+        </div>
+    </footer>
+</body>
+<script>
+    AOS.init();
+</script>
+<script src="../javascript/productDetail.js"></script>
+</html>
